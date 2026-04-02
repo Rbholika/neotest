@@ -1,0 +1,46 @@
+# ═══════════════════════════════════════════════════════════════════
+# AI Agent Framework — Python 3.12.8 Requirements
+# Install: pip install -r requirements.txt --break-system-packages
+# ═══════════════════════════════════════════════════════════════════
+
+# ── Core LLM ──────────────────────────────────────────────────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langgraph>=0.1.0
+
+# ── Vector Store ──────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── Streamlit UI ──────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Document Parsing ──────────────────────────────────────────────
+pdfminer.six>=20221105
+python-docx>=1.1.0
+openpyxl>=3.1.0
+
+# ── Export ────────────────────────────────────────────────────────
+reportlab>=4.2.0
+
+# ── Visualization ─────────────────────────────────────────────────
+plotly>=5.20.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+kaleido>=0.2.1         # For Plotly PNG export
+
+# ── Voice ─────────────────────────────────────────────────────────
+pyttsx3>=2.90          # TTS (offline)
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14        # Microphone input
+
+# ── HTTP ──────────────────────────────────────────────────────────
+httpx>=0.27.0
+
+# ── Utilities ─────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+numpy>=1.26.0
+
+# ── Optional — Whisper STT (offline) ──────────────────────────────
+# openai-whisper>=20231117
